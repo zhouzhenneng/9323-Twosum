@@ -1,0 +1,155 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-container {
+    width: 60%;
+    max-width: 500px;
+    
+}
+
+.login-title {
+    text-align: center;
+}
+
+.login-container {
+    position: relative;
+}
+
+.login-input {
+    width: 240px;
+    margin-bottom: 10px;
+    height: 20px;
+    border: #d8d8d8 solid 1px;
+    border-radius: 3px;
+}
+
+.login-email {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.login-password {
+    font-size: 13px;
+    font-weight: 600;
+}
+.register-new-account {
+    font-size: 10px;
+}
+
+.register-new-account:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.common-button {
+    width: 90px;
+    height: 40px;
+}
+
+.login-button {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    background-color: #4380ba;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.login-close {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    background-color: #4380ba;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.login-close:hover {
+    cursor: pointer;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.register-title {
+    text-align: center;
+}
+
+.register-button {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 470px;
+    left: 60px;
+    background-color: #4380ba;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.register-button:hover {
+    cursor: pointer;
+}
+
+.register-close {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 470px;
+    right: 60px;
+    background-color: #4380ba;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.register-close:hover {
+    cursor: pointer;
+}
+
+.register-button {
+}

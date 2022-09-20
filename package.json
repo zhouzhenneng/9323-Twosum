@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "antd-img-crop": "^4.2.3",
+    "install": "^0.13.0"
+  }
+}

@@ -1,0 +1,57 @@
+.project-container {
+    width: 100vw;
+    height: 50%;
+    max-height: 800px;
+    display: flex;
+}
+.project-container-left {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.ant-card{
+    margin-top: -30% !important;
+}
+
+.project-container-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.second-part {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    padding-bottom: 20%;
+
+}
+
+.project-detail-card {
+    margin-top: 15%;
+}
+
+.company-name {
+    margin-top: 10%;
+    width: 60%;
+}
+
+.project-owner:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.second-part-text {
+    width: 75vw;
+    word-break: keep-all;
+    margin-right: 40px;
+    
+}
+.details_text{
+    padding: 10px
+}
+.video-container {
+    margin: 40px;
+}

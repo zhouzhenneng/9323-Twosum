@@ -1,0 +1,13 @@
+.application-list{
+    width: 70%;
+    margin-left: 70px;
+}
+.title{
+    margin: 20px auto;
+}
+.demo-loadmore-list {
+    min-height: 350px;
+}
+.photo, .name{
+    cursor: pointer;
+}

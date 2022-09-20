@@ -1,0 +1,46 @@
+.Aside{
+    width: 240px;
+    background-color: #5098E4;
+    float: left;
+    /* height: 80vh; */
+    height: 100vh;
+
+}
+.asidelogo{
+    
+	width: 60%;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.asidelogo img{
+    
+	width: 100%;
+}
+
+.asidelogo:hover {
+    cursor: pointer;
+}
+.profileLink > svg{
+    fill:#DBDBDB !important;
+    margin-left: 10%;
+}
+.profileLink{
+    margin-top: 3.5vh;
+    display: flex;
+}
+
+.profileLink a:active{
+    font-weight: 6;
+
+}
+
+.profileLink>div>a{
+    margin-left: 10%;
+    font-size: 1vh;
+    line-height: 3vh;
+}
+
+.profileLink>div{
+    margin-top: 0;
+    flex:1;
+}

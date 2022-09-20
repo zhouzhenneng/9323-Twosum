@@ -1,0 +1,90 @@
+.Avator{
+    border-radius: 50%;
+    /* display: flex;
+    flex-direction: column; */
+    cursor: pointer;
+    position: relative;
+    opacity: 1;
+}
+.index-containers{
+    height: 80vh
+}
+.photo{
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left:0;
+
+}
+.Avator:hover{
+    opacity: 0.8;
+}
+.upload{
+    position: absolute;
+    top: 32px;
+    left: 0;
+    z-index: 20 ;
+    font-size: 6px;
+    font-weight: bold;
+    color: #6296de;
+}
+
+.bio{
+    border-radius: 50%;
+}
+.totalProfile{
+    display: flex;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.leftProfile{
+    width: 30%;
+    text-align: left;
+    /* display: flex;
+    flex-direction: column; */
+}
+.rightProfile{
+    width: 80%;
+    margin-left: 20%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.rightProfileButton{
+    margin-left: 30%;
+    margin-top: 20%;
+    color:white;
+    background-color: black;
+    /* border-radius:20% */
+}
+
+.index-container {
+    /* margin: 0 0 0 -250px; */
+}
+#Name>p{
+    font-weight: 700;
+    line-height: 3em;
+    font-size: 1.2em;
+}
+.leftProfile>a{
+    padding-bottom: 300px !important;
+}
+.divider{
+    padding-top: 20px;
+}
+#introduce{
+    padding-top: 20px;
+}
+.TipsContent{
+    padding:10%;
+    border: 1px solid #EEEEEE;
+}
+.Tips{
+    font-weight: 700;
+}
+.Button{
+    margin-left: 40% !important;
+    line-height: 100px !important;
+}

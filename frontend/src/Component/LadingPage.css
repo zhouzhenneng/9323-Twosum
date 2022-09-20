@@ -1,0 +1,120 @@
+.home-container{
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+
+home-bg-container{
+  display: flex;
+  order:1;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url( "../img/landing-page.jpg");
+}
+.home-bg{
+  width:100%;
+
+}
+.home-logo{
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  cursor: pointer;
+
+}
+
+
+.log-reg{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right:20px;
+  top:100px;
+}
+.login, .register{
+  font-size: 20px;
+  font-weight: 600;
+}
+.link{
+  color: #000000;
+}
+.login{
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+.login-link{
+  display: inline-block;
+}
+.slogan{
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  width: 500px;
+}
+.slogan > span{
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.start-button{
+  position: absolute;
+  left: 300px;
+  top: 550px;
+}
+.get-start{
+  font-size: 80px;
+}
+.icon-bar{
+  width: 100%;
+  height: 170px;
+  background-color: #25391b;
+  display: flex;
+  justify-content: space-around;
+  order:2;
+}
+
+.icon{
+  width: 70px;
+}
+.ali{
+  width: 80px;
+}
+
+.description{
+  margin: 20px auto;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  order:3;
+
+}
+.title{
+  font-size: 35px;
+}
+.text{
+  font-size: 20px;
+  text-align: center;
+}
+.find-button{
+  width: 250px;
+}
+.footer-container{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  order:4;
+}
+.footer-logo{
+  margin-left: 100px;
+
+}
+.logo{
+  width: 80%;
+}

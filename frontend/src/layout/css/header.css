@@ -1,0 +1,18 @@
+.header{
+    width:90%;
+    margin:0 auto;
+}
+.navigator{
+    width:90%;
+    margin:0 auto;
+    color:black !important;
+}
+
+.logo img{
+	width: 10%;
+}
+
+
+.logo:hover {
+    cursor: pointer;
+}

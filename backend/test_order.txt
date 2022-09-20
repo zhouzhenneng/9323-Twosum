@@ -1,0 +1,29 @@
+cd 9323/backend
+venv\Scripts\activate
+$env:FLASK_ENV = "development"
+$env:FLASK_APP = "project.py"
+
+
+#Flask shell Commands to reset database：
+from app import db
+db.drop_all()
+db.create_all()
+from app import db
+from app.models import Role,User
+mentor_role=Role(role_name='mentor')
+student_role=Role(role_name='student')
+db.session.add_all([mentor_role,student_role])
+db.session.commit()
+Role.query.first()
+Role.query.all()
+
+
+#Flask shell Commands to predefine some users：
+mentor_role=Role.query.filter_by(role_name='mentor').first()
+student_role=Role.query.filter_by(role_name='student').first()
+yindi=User(first_name='yindi',last_name='ruan',email='yindi@email.com',password='123456',role=mentor_role,domain='computer science')
+jiaxin=User(first_name='jiaxin',last_name='he',email='jiaxin@email.com',password='123456',role=student_role,domain='financing')
+xuyuan=User(first_name='xuyuan',last_name='liu',email='xuyuan@email.com',password='123456',role=student_role,domain='computer science')
+db.session.add_all([yindi,jiaxin,xuyuan])
+db.session.commit()
+User.query.all()

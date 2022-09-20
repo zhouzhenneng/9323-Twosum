@@ -1,0 +1,37 @@
+####This guide is used for a brand new clone of the GitHub Repo####
+####Please follow the step-by-step guide####
+
+1. switch to the backend directory, then install the virtual enrironment:
+cd 9323/backend
+
+#Linux/macOS:
+python3 -m venv venv
+
+#windows:
+py -3 -m venv venv
+
+
+2. make sure you have virtual environment activated:
+//Linux, MacOS
+source venv/bin/activate
+
+//Windows
+venv\Scripts\activate
+
+
+3. in the virtual enrironment, run the command to install Flask and other libraries:
+pip install -r requirements.txt
+
+
+4. set up enrironment variables:
+//Windows
+$env:FLASK_DEBUG=1
+$env:FLASK_APP="project.py"
+
+//Linux, MacOS
+export FLASK_DEBUG=1
+export FLASK_APP="project.py"
+
+
+5. run the application
+flask run
